@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-connect{
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+
+.nav-menu li.active p {
+    border-bottom: 2.5px solid #fff; /* or your preferred color */
+    padding-bottom: 4px;
+    transition: border-bottom 0.2s;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.anchor-link{
+    color: white;
+    text-decoration: none;
+}

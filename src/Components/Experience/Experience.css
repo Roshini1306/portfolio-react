@@ -1,0 +1,35 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.experience-title{
+    position: relative;
+}
+
+.experience-title h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.experience-cards{
+    display: flex !important;
+    gap: 30px;
+}
+
+.experience-buttons{
+    margin-top: 20px !important;
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 20px  !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+    transition: 0.3s !important;
+    font-size: medium !important;
+}

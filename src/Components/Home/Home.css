@@ -1,0 +1,58 @@
+.profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px
+}
+
+.home h1{
+    text-align: center;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.home p{
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.home-actions{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.home-connect{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home-resume{
+     padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home-connect:hover, .home-resume:hover{
+    transform: scale(1.05);
+}
