@@ -9,7 +9,7 @@ const Home = () => {
     <div id='home' className='home'>
         <img src={profile_img} className='profile-img' />
         <h1>I'm Roshini Kamala Priya, Senior Software Engineer </h1>
-        <p>Software Engineer with 3+ years of experience in blockchain development, 
+        <p>Senior Software Engineer with 3+ years of experience in blockchain development, 
         specializing in secure systems, infrastructure automation, 
         and scalable front-end design. </p>
         <div className='home-actions'>
